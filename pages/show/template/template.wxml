@@ -1,0 +1,17 @@
+<template name="showtemplate">
+<view class="show">
+  <view class="show-bar">
+    <image  class="show-author" src="{{images.author_image}}"></image>
+    <text  class="show-date" >{{date}}</text>
+  </view>
+  <text  class="show-title" >{{itemid+1+"、"}}{{title}}</text>
+  <image src="{{images.image}}"  class="show-image" ></image>
+  <text  class="show-content" >
+  {{content}}
+  </text>
+  <view  class="show-like" >
+    <text  class="show-shoucang" >收藏：{{shoucang}}</text>
+    <text class="show-read" >阅读：{{read}}</text>
+  </view>
+ </view>
+ </template>

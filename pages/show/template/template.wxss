@@ -1,0 +1,51 @@
+.all{
+  background: #ccc;
+}
+.show{
+  border:1px solid #bbb;
+  display:flex;
+  flex-direction: column;
+  margin:20rpx 0rpx 10rpx 0rpx;
+  background: #fff;
+}
+.show-bar{
+  background: #fff;
+  padding:15rpx;
+}
+.show-author{
+  width:60rpx;
+  height:60rpx;
+  margin:5px 10px;
+  vertical-align: middle;
+}
+.show-date{
+  margin-left:20rpx;
+  font-size:28rpx;
+  color:#ccc;
+  vertical-align: middle;
+}
+.show-title{
+  background: #fff;
+  padding-left:30rpx;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.show-image{
+  width:100%;
+  height:400rpx;
+}
+.show-content{
+  font-size:25rpx;
+  vertical-align: middle;
+  line-height: 40rpx;
+  color:#555;
+}
+.show-like{
+  display:flex;
+  margin:10rpx;
+  font-size:25rpx;
+  color:aquamarine;
+}
+.show-shoucang,.show-read{
+  margin:5rpx 10rpx;
+}

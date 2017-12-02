@@ -1,0 +1,19 @@
+<!--pages/datail/detail.wxml-->
+<view class="container">
+<image  class="image" src="{{postdata.headimage}}"></image>
+<view class="fabiao">
+<image class="author" src="{{postdata.images.author_image}}"></image>
+<text class="authorname">{{postdata.author}}</text>
+<text class="fabiaoyu">发表于：</text>
+<text class="date">{{postdata.datetime}}</text>
+</view>
+<text class="title">{{postdata.title}}</text>
+<view class="like">
+<image class="share" catchtap='click2' src="/images/fen.jpg"></image>
+<image class="shoucang" catchtap="click" src="{{collected?'/images/shou.jpg':'/images/shou2.jpg'}}"></image>
+<view class="line"></view>
+</view>
+<text class="content">
+{{postdata.detail}}
+</text>
+</view>

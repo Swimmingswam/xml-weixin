@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/show/show",
+    "pages/datail/detail",
+    "pages/movies/movies",
+    "pages/movies/more/more",
+    "pages/movies/movies-detail/movies-detail"
+    
+    
+    
+  ],
+  "window":{
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar":{
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath":"pages/show/show",
+        "text":"文章",
+        "iconPath":"images/shou2.jpg",
+        "selectedIconPath":"images/shou.jpg"
+      },
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath": "images/shou2.jpg",
+        "selectedIconPath": "images/shou.jpg"
+      }
+    ]
+  }
+}

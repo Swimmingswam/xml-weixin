@@ -1,0 +1,36 @@
+/**app.wxss**/
+page{
+  background:#b3d4db;
+}
+.container {
+  height:568px;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:#b3d4db;
+} 
+.image{
+  width:200rpx;
+  height:200rpx;
+  margin-top:200rpx;
+}
+.hello{
+  font-size:40rpx;
+  font-weight: bold;
+  margin-top:100rpx;
+}
+.motto-container{
+  border:1px solid #555;
+  width:300rpx;
+  height:80rpx;
+  margin-top:200rpx;
+  border-radius: 5px;
+}
+.motto{
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 35rpx;
+  color:#555;
+  margin-left:30rpx;
+}

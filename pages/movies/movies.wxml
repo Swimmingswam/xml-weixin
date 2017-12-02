@@ -1,0 +1,22 @@
+<import src="movieslist-template/movieslist.wxml" />
+<import src="more/more-template/more.wxml" />
+<view class="search">
+  <icon type="search" class="search-img" size="13" color="#405f80"></icon>
+  <input type="text" placeholder="血战钢锯岭、你的名字" 
+  placeholder-class="placeholder" bindfocus="onBindFocus" bindchange="onchange"/>
+  <text class="xx" catchtap="concel" wx:if="{{sreachshow}}">X</text>
+</view>
+<view class="container" wx:if="{{moviesshow}}">
+  <view class="feng">
+    <template is="movieslist" data="{{...intheaters}}" />
+  </view>
+  <view class="feng">
+    <template is="movieslist" data="{{...comesoon}}" />
+  </view>
+  <view class="feng">
+    <template is="movieslist" data="{{...top250}}" />
+  </view>
+</view>
+<view wx:if="{{sreachshow}}">
+<template is="moremovies" data="{{...searchresults}}" />
+</view>
